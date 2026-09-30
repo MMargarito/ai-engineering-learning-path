@@ -1,6 +1,27 @@
-posting_id, company, title, skill, category, required
-1, Captial One, AI Engineer 5 (MLXT), python, language, yes
-2, Della Solutions, Distinguished AI Engineer, AWS, cloud, yes
-3, Penguin Random House, Junior AI Engineer, Python, language, yes
-4, ExpertVoice, Frontend/ AI Engineer, API, framework, yes
-5, Rex.zone, Remote AI Engineer, python, language, yes
+posting_id,company,title,skill,category,required
+1,Bloomberg,Senior Applied AI Engineer - Artificial Intelligence,Python,language,yes
+1,Bloomberg,Senior Applied AI Engineer - Artificial Intelligence,PyTorch,framework,yes
+1,Bloomberg,Senior Applied AI Engineer - Artificial Intelligence,machine learning,concept,yes
+1,Bloomberg,Senior Applied AI Engineer - Artificial Intelligence,large language models,concept,yes
+1,Bloomberg,Senior Applied AI Engineer - Artificial Intelligence,data structures and algorithms,concept,yes
+1,Bloomberg,Senior Applied AI Engineer - Artificial Intelligence,communication,soft,yes
+2,JPMorgan Chase,Applied AI/ML Engineer - Vice President,Python,language,yes
+2,JPMorgan Chase,Applied AI/ML Engineer - Vice President,AWS,cloud,yes
+2,JPMorgan Chase,Applied AI/ML Engineer - Vice President,SageMaker,cloud,yes
+2,JPMorgan Chase,Applied AI/ML Engineer - Vice President,pytest,framework,yes
+2,JPMorgan Chase,Applied AI/ML Engineer - Vice President,MLOps,concept,yes
+2,JPMorgan Chase,Applied AI/ML Engineer - Vice President,generative AI (transformers/GANs/VAEs),concept,no
+3,AlphaSense,AI Research Engineer,Python,language,yes
+3,AlphaSense,AI Research Engineer,HuggingFace,framework,yes
+3,AlphaSense,AI Research Engineer,spaCy,framework,yes
+3,AlphaSense,AI Research Engineer,natural language processing,concept,yes
+3,AlphaSense,AI Research Engineer,deep learning,concept,yes
+4,NVIDIA,Senior Drug Discovery AI Engineer,large language models,concept,yes
+4,NVIDIA,Senior Drug Discovery AI Engineer,geometric deep learning,concept,yes
+4,NVIDIA,Senior Drug Discovery AI Engineer,model parallelism,concept,yes
+4,NVIDIA,Senior Drug Discovery AI Engineer,statistics,concept,yes
+5,Robin AI,LLM Research Engineer,Python,language,yes
+5,Robin AI,LLM Research Engineer,LLM APIs (open-source or commercial),concept,yes
+5,Robin AI,LLM Research Engineer,machine learning,concept,yes
+5,Robin AI,LLM Research Engineer,communication,soft,yes
+5,Robin AI,LLM Research Engineer,startup experience,soft,no
