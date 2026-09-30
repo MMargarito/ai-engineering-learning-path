@@ -2,7 +2,7 @@ Part 1:
 
 AI Engineer: An AI engineer builds products and systems on top of existing LLMs. This product or system will use the LLM (Claude, Gemini, GPT) as the main AI behind it's product.
 
-ML Engineer: An ML engineer builds and test the actual LLM. They can be working on testing and building features for existing LLMs or they can be developing new LLMs
+ML Engineer: An ML engineer builds and test the actual LLM. They can be working on testing and building features for existing LLMs or they can be developing new LLMs. The ML engineer can also train models using math to make the models more accurate at predicting and analyzing data for them.
 
 Data Scientist: A Data Scientist provides buisness intelligence reports using data. They can sometimes use LLMs for this or other AI models to get the information they need for the BI reports.
 
