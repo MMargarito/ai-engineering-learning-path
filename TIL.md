@@ -21,3 +21,9 @@ Today, I had to re-learn the differences between Data Analyst, Data Scientist an
 I also learned and practiced creating, committing, pushing, merging a github repo. 
 
 Python seems to be the single most looked for skill in an AI Engineer.
+
+10/01/2026
+
+Today I learned what WSL2 is and why we use it on a windows PC. It acts as a fully functioning Linux system we can access on our windows PC. One thing I got wrong was thinking the Linux system was mounted onto my windows PC. In fact it is the other way around. I also learned that the reason mnt is used as the Linux keyword is because back in the day they would physically mount a new drive onto the linux drive and then tell the computer to recognize it. 
+
+Virtual Enviroments are useful private folders inside of each project that contain the versions of libraries we use for python. This removes any dependency conflicts that we would have between projects. It's safe to delete and stays out of git because it can be a large file and is computer specific.  
