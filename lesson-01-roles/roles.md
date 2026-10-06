@@ -20,7 +20,7 @@ Skill Count:
 
 *5 and 6 are actually in a 16 way tie for 5th place. 
 
-The count tells me that by far the most important skill in the AI space is having high proficiency with the python language.
+The count tells me that by far the most necessary skill in the AI space is having high proficiency with the python language.
 
 Part 3:
 
