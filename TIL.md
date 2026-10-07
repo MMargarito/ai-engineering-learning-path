@@ -27,3 +27,18 @@ Python seems to be the single most looked for skill in an AI Engineer.
 Today I learned what WSL2 is and why we use it on a windows PC. It acts as a fully functioning Linux system we can access on our windows PC. One thing I got wrong was thinking the Linux system was mounted onto my windows PC. In fact it is the other way around. I also learned that the reason mnt is used as the Linux keyword is because back in the day they would physically mount a new drive onto the linux drive and then tell the computer to recognize it. 
 
 Virtual Enviroments are useful private folders inside of each project that contain the versions of libraries we use for python. This removes any dependency conflicts that we would have between projects. It's safe to delete and stays out of git because it can be a large file and is computer specific.  
+
+10/06/2026
+
+Today I learned about uv. What it does and what it creates.
+uv acts as a manager for the project. It creates a folder structure that adds files like pyproject.toml, uv.lock, and 
+.venv. It also creates folders like .git .venv and src. pyproject.toml stores all the loose instructions for what is required for the project. uv.lock is a detailed solid list of the exact dependencies required for the project to be cloned. We should commit pyproject.toml and uv.lock. This is because without them the developer cloning our repo won't know exactly what they need to get the project to work like it does on our machine. We should also commit a file it has .python_version because they will also need to know the version of python uv built the project with. Now for our API keys we need a safe location for them. That is going to be the .env file. We will first want to add that file name .env to our .gitignore file. This way there is now window of opportunity for a leak to occur when we commit using git add ..
+
+I also learned about the beauty of pipes in command line.
+there was also some commands I learned about 
+cat: prints the contents of a file
+sort: sorts lines of text
+grep: prints lines that match a pattern
+wc: it counts, by default reports lines, words, and characters
+uniq: prints a list of unique lines from a file. (Note Sort should happen before uniq as it only collapses adjacent duplicate lines.)
+A pipe is a tool that takes the output of one command and gives it as the input to another. With this "pipe" we can take small tools or programs and link them together to get a useful result without needing to write it's own personal program.  uniq needs sort in front of it because it only collapses duplicated instances if they are adjacent to each other. Windows adds ^M to the end of every line as a carriage return. This can be dangerous because if you are counting lines yes$ and yes^M would be treated as two different groups not the same group.
