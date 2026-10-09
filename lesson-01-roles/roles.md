@@ -20,7 +20,7 @@ Skill Count:
 
 *5 and 6 are actually in a 16 way tie for 5th place. 
 
-The count tells me that by far the most necessary skill in the AI space is having high proficiency with the python language.
+The skill count shows me that Python is the most listed required skill. The sample size we had was 20 different skills. Python was repeated 4 times that's the most by a count of 2. Communication, large language models, and machine learning are in a 3 way tie for second. data structures and algorithms and LLM API's are in a 16 way tie for 5th place. 
 
 Part 3:
 
