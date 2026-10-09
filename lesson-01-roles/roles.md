@@ -20,7 +20,7 @@ Skill Count:
 
 *5 and 6 are actually in a 16 way tie for 5th place. 
 
-The skill count shows me that Python is the most listed required skill. The sample size we had was 20 different skills. Python was repeated 4 times that's the most by a count of 2. Communication, large language models, and machine learning are in a 3 way tie for second. data structures and algorithms and LLM API's are in a 16 way tie for 5th place. 
+The skill count shows me that Python is the most listed required skill. The sample size we had was 5 different job postings. 20 different skills appeared across them. Python appeared in 4 out of the 5 job listings. Now because of the small sample size the results cannot confirm which is the most important skill in the Whole AI field or other kinds of roles.  
 
 Part 3:
 
