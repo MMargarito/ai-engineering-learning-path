@@ -43,3 +43,9 @@ grep: prints lines that match a pattern
 wc: it counts, by default reports lines, words, and characters
 uniq: prints a list of unique lines from a file. (Note Sort should happen before uniq as it only collapses adjacent duplicate lines.)
 A pipe is a tool that takes the output of one command and gives it as the input to another. With this "pipe" we can take small tools or programs and link them together to get a useful result without needing to write it's own personal program.  uniq needs sort in front of it because it only collapses duplicated instances if they are adjacent to each other. Windows adds ^M to the end of every line as a carriage return. This can be dangerous because if you are counting lines yes$ and yes^M would be treated as two different groups not the same group.
+
+10/12/2026
+
+During this project I got a couple of things wrong out right. The use of tail in CLI. I wanted to remove the header and used tail -26 on a list where including the header would be 27. If the list was to grow this use of tail would be wrong. It would only give me the last 26 items. The grep command also gave me some trouble. I was using it to search for file names instead of it's proper use of searching for a pattern within the lines of a file.
+
+A virtual environment is used to keep project dependencies separate from projects on the same machine. This solves the problem of having version errors when running multiple projects from the same machine.
