@@ -23,9 +23,9 @@ Output:
       1 HuggingFace
       1 AWS
 
-Command to check for ^M windows carraige return
+Command to check for ^M windows carriage return
 grep -c $'\r' job_skills.csv
 Output:0
-tested with line.txt where there are 4 carraige returns
+tested with line.txt where there are 4 carriage returns
 grep -c $'\r' line.txt
 Output:4
