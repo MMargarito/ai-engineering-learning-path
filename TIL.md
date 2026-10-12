@@ -46,6 +46,6 @@ A pipe is a tool that takes the output of one command and gives it as the input 
 
 10/12/2026
 
-During this project I got a couple of things wrong out right. The use of tail in CLI. I wanted to remove the header and used tail -26 on a list where including the header would be 27. If the list was to grow this use of tail would be wrong. It would only give me the last 26 items. The grep command also gave me some trouble. I was using it to search for file names instead of it's proper use of searching for a pattern within the lines of a file.
+During this project I got a couple of things wrong outright. The use of tail in CLI. I wanted to remove the header and used tail -26 on a list where including the header would be 27. If the list was to grow this use of tail would be wrong. It would only give me the last 26 items. The grep command also gave me trouble when it came to searching for carriage endings. I was typing (^M) which grep reads as lines starting with M which in my case returned 0. I needed to $'\r' to convert the escape sequence into a literal carriage return before passing it to grep. This returned 4 on my line.txt which was correct.
 
-A virtual environment is used to keep project dependencies separate from projects on the same machine. This solves the problem of having version errors when running multiple projects from the same machine.
+A virtual environment is used to keep project dependencies separate from projects on the same machine. This solves the problem of having version errors when running multiple projects from the same machine. A .venv folder is a folder that holds the virtual environment which has the dependencies specific to the project it is located in.
